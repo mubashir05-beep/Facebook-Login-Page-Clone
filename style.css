@@ -1,0 +1,164 @@
+*{font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f0f2f5;
+    margin: 10rem;
+}
+.container{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 2rem;
+     margin-right: 2rem;
+}
+.leftSection{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    height: auto;
+}
+.rightSection{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftSection img{
+    height: 70px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.recentLogs{
+    font-size: 24px;
+    font-weight: 500;
+}
+.tagLine{
+    font-size: 15px;
+    color: #606770;
+    line-height: 24px;
+margin-bottom: 12px;
+}
+.userLogs{
+    display: flex;
+    flex-direction: column;
+
+}
+.imgContainer{
+align-items: center;
+position: relative;
+background-color: #f5f6f7;
+display: flex;
+height: 160px;
+justify-content: center;
+width: 160px;
+border-radius: 8px  8px 0 0; 
+}
+.imgContainer img{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    text-align: center;
+    width: 42px;
+    height: 42px;
+}
+.addAccount{
+    padding: 12px;
+    cursor: pointer;
+    width: 136px;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    color: #1877f2;
+    text-align: center;
+}
+#formContainer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 396px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 60px 0 0;
+}
+.input{
+font-size: 17px;
+width: 330px;
+border-radius: 6px;
+border: 1px solid #dddfe2;
+color: #1d2129;
+height: 42px;
+margin-top: 10px;
+line-height: 16px;
+padding: 0 8px;
+}
+#login{
+font-weight: 600;
+color: white;
+border: none;
+margin-top: 10px;
+background-color: #166fe5;
+border-radius: 6px;
+font-size: 20px;
+line-height: 48px;
+padding: 0 16px;
+width: 342px;
+cursor: pointer;
+}
+form a {
+    margin:15px 0 ;
+    text-decoration: none;
+    color: #1877f2;
+font-size: 14px;
+font-weight: 500;
+}
+.sectionLine{
+    align-items: center;
+   border-bottom: 1px solid #dbd5d5;
+   width: 330px;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.newBtn{
+background-color: #36a420;
+border-color: #36a420;
+height: 20px;
+border: none;
+border-radius: 6px;
+font-size: 17px;
+height: 48px;
+padding: 0 16px;
+cursor: pointer;
+color: white;
+}
+.create{
+    border-top: none;
+color: #1c1e21;
+text-align: center;
+font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: normal;
+padding-top: 0;
+margin-top: 28px;
+text-align: center;
+word-wrap: break-word;
+}
+/* 
+<button #="Login">Login</button>
+        <a href="">Forgotten password?</a>
+        <div class="sectionLine"></div>
+        <button newBtn>Create New Accound</button>
+      </form>
+      <div class="create"><b>Create a Page </b> for a celebrity, brand or business.</div>
+        </div>
+*\
